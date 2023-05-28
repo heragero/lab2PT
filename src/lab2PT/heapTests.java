@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-class heapTests {
+class HeapTests {
 
 	public void OutOfMemoryThrower() {
 		List<Integer> Thrower = new ArrayList<Integer>();

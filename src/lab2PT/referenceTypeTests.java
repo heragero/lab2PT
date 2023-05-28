@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
-class referenceTypeTests {
+class ReferenceTypeTests {
 	
 	public void ChangeAllCharsToDot(char[] array) {
 		for(int i = 0; i < array.length; i++) {

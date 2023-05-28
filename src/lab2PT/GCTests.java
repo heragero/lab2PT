@@ -30,7 +30,7 @@ class GCTests {
 	}
 
 	@Test
-	void TestWhenClassGetNullpointer() {
+	void PointerToClassSetToNullptrTest() {
 		var sc = new SomeClass();
 		sc.AddSomeClassesToList();
 		long heapSizeBefore = Runtime.getRuntime().totalMemory();
@@ -42,7 +42,7 @@ class GCTests {
 		Assert.assertTrue((heapSizeAfter - heapSizeBefore) < -1000000);
 	}
 	@Test
-	void TestWhenManyClassesSetToNull() 
+	void PointersOfManyClassesSetToNullptrTest() 
 	{
 		for(int i = 0; i < 1_000_000; i++) {
 			var obj = new ReferenceClass();
